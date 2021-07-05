@@ -1,0 +1,17 @@
+.header img{
+    height: 200px;
+    width: 100%;
+}
+.nav-link{
+    font-weight: 1000 !important;
+}
+.main-text{
+    font-size: medium; 
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.nav-item{
+    text-align: center;
+}

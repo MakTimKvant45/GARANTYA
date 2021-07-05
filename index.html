@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО "ГАРАНТИЯ</title>
+    <link rel="shortcut icon" href="https://logika-b2b.ru/upload/iblock/4ec/4ec1aee90296333f7197cc1612e34101.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="container text-center header" >
+    <!-- HEADER -->
+    
+        <img src="static/img/GAR.png" alt="">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-center" style="font-weight: 4000!important;">
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page1'">О нас</button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page2'">Продукция</button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page3'">Реализуем</button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page4'">Потребности</button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page5'">Контакты</button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 40px;">
+                        <button type="button" class="btn btn-outline-light" @click="page = 'page6'">Доставка</button>
+                    </li>
+                </div>
+              </div>
+            </div>
+          </nav>
+    <!-- ENDHEADER -->
+    <!-- HOME -->
+    <div class="border-start border-end border-2 page1" v-if="page == 'page1'" style="height: 200%;">
+        <h3 style="padding-top: 30px;">О нас</h3>
+        <h1 style="margin-top: 30px;">Производство фланцов - ООО "ГАРАНТИЯ"</h1>
+        <p class="main-text">
+            КМЗ "Сибмаш" представлен на метизном рынке с 2002 года как производитель крепежных изделий. Предприятие производит болты, штифты, шайбы, шпильки, винты, фланцы, оси, гайки по ГОСТу.  Производственно-технические возможности завода позволяют осуществлять производство метизов, крепежа и другой продукции любого уровня точности и сложности, из любых марок сталей, как по единым стандартам, так и по нормативной документации заказчика. Производство крепежа, в частности метизов, выполняет с виду какую то малоприметную роль, но на практике - ни одно предприятие промышленности или завод не могут обойтись без них. Их ключевая роль это качество и надежность. А от их качества зависит как долго и хорошо будут работать другие сопутствующие изделия. В отдельное направление выделено производство нестандартных изделий из металлоконструкций для нефтяной, химической, газовой промышленности.
+            Развитие предприятия основывается на грамотном сочетании производственной и маркетинговой политики. Программа технического переоснащения реализуется путем приобретения современного, многофункционального и высокотехнологичного оборудования, что позволяет обеспечить увеличение производственных мощностей и совершенствовать качество изготовляемой продукции. Для эффективного управления и повышения конкурентоспособности разработана и внедрена система менеджмента качества (СМК) в соответствии с требованиями международных стандартов ISO 9001:2008. Курганский метизный завод "Сибмаш" имеет сертификаты на всю выпускаемую продукцию.
+            Сотрудничая с партнерами, мы создаем долгосрочные отношения на основе гибкой системы оплаты, предоставления скидок, согласования сроков поставок и форм отгрузок.
+        </p>
+    </div>
+    <!-- ENDHOME -->
+    <!-- PRODUCTS -->
+    <div class="border-start border-end border-2 page2" v-if="page == 'page2'">
+        <h1>Фланцы оптом</h1>
+    </div>
+    <!-- ENDPRODUCTS -->
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="static/js/js.js"></script>
+</body>
+</html>
